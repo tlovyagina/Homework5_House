@@ -1,6 +1,5 @@
 package org.example;
 
-
 import java.util.*;
 
 public class House {
@@ -12,6 +11,7 @@ public class House {
         while (true) {
             System.out.println("Введите имя и возраст человека (0 -завершить список жильцов):");
             String name = scanner.next();
+
             if (name.equals("0")) break;
             tenants.put(name, scanner.nextInt());
         }

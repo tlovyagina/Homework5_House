@@ -5,6 +5,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         House house = new House();
+
         house.checkInTenants();
         List<String> tenants = house.getOlder18();
 
