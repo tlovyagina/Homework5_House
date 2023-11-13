@@ -21,7 +21,7 @@ public class House {
         List<String> result = new ArrayList<>();
 
         for (String name : tenants.keySet()) {
-            if (tenants.get(name) > 18)
+            if (tenants.get(name) >= 18)
                 result.add(name);
         }
 
